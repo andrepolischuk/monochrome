@@ -1,0 +1,3 @@
+html.monochrome {
+  filter: grayscale(1) !important;
+}

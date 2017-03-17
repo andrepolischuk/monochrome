@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Andrey Polischuk</string>
+	<key>Builder Version</key>
+	<string>12604.1.4.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>Monochrome</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.andrepolischuk.monochrome</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>makeMonochrome</string>
+				<key>Identifier</key>
+				<string>makeMonochrome</string>
+				<key>Image</key>
+				<string>Icon-16.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Monochrome</string>
+				<key>Palette Label</key>
+				<string>Monochrome</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>client.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>client.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Monochrome web</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/andrepolischuk</string>
+</dict>
+</plist>
